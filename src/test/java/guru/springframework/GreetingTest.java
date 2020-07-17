@@ -11,12 +11,16 @@ public class GreetingTest {
 
 	@Test
 	void testHelloWorld() {
-
+		Greeting greeting = new Greeting();
+		
+		System.out.println(greeting.helloWorld());
 	}
 	
 	@Test
 	void testHelloWorldWithName() {
-
+		Greeting greeting = new Greeting();
+		
+		System.out.println(greeting.helloWorld("Hansel"));
 	}
 	
 
